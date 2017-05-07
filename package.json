@@ -1,0 +1,27 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Website for Jon's github account",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Chaplin",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^1.2.0",
+    "cp-file": "^4.1.1",
+    "cpy": "^5.0.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-copy": "^0.1.0",
+    "grunt-responsive-images": "^1.10.1",
+    "grunt-run": "^0.6.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-sync": "^0.6.2",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}
