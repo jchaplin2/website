@@ -13,6 +13,7 @@ module.exports = function(grunt) {
 		responsive_images: {
 			dev : {
 				options : {
+			        engine: 'gm',  // added
 					sizes : [{
 						name: '600',
 						width: 600
@@ -39,17 +40,21 @@ module.exports = function(grunt) {
   			dynamic : {
       			files: [{
         			expand: true,
-	       			src: ['img/*.*'],
-        			cwd: 'src/',
-        			dest: 'dist/'
-      			}]
-    		}
-  		}
+	   				src: ['img/*.*'],
+					cwd: 'dist/',
+					dest: 'dist/'
+				}]
+			}
+		}
 	});
 
+//run grunt from sublime
+//		'imagemin',
+//
 	grunt.registerTask('default', [
 		'concat',
-		'imagemin',
-		'responsive_images'
+		'sass',
+		'responsive_images',
+		'imagemin'
 	]);
 }

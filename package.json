@@ -17,11 +17,22 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-imagemin": "^1.0.1",
     "grunt-contrib-jshint": "^1.1.0",
-    "grunt-copy": "^0.1.0",
+    "grunt-contrib-watch": "^1.0.0",
     "grunt-responsive-images": "^1.10.1",
-    "grunt-run": "^0.6.0",
     "grunt-sass": "^2.0.0",
-    "grunt-sync": "^0.6.2",
     "load-grunt-tasks": "^3.5.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchaplin2/website.git"
+  },
+  "keywords": [
+    "website",
+    "jon",
+    "chaplin"
+  ],
+  "bugs": {
+    "url": "https://github.com/jchaplin2/website/issues"
+  },
+  "homepage": "https://github.com/jchaplin2/website#readme"
 }
