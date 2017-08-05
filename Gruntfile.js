@@ -45,16 +45,59 @@ module.exports = function(grunt) {
 					dest: 'dist/'
 				}]
 			}
+		},
+		htmlmin: {
+	      dist: {
+	        options: {
+	          removeComments: true,
+	          collapseWhitespace: true
+	        },
+	        files: {
+	          'dist/index.html': 'src/index.html'
+	        }
+	      }
+		},
+	    cssmin: {
+	      target: {
+	        files: [{
+	          expand: true,
+	          cwd: 'src/',
+	          src: ['css/*.css'],
+	          dest: 'dist/',
+	          ext: '.css'
+	        }]
+	      }
+	    },
+	    uglify: {
+	      all: {
+	        files: [{
+	          expand: true,
+	          cwd: 'src/',
+	          src: ['js/*.js'],
+	          dest: 'dist/',
+	          ext: '.js'
+	        }]
+	      }
+	    },
+	    copy: {
+		  main: {
+		    expand: true,
+		    cwd: 'src/img',
+		    src: '**',
+		    dest: 'dist/img',
+		    flatten: true,
+		    filter: 'isFile',
+		  }
 		}
 	});
 
-//run grunt from sublime
-//		'imagemin',
-//
 	grunt.registerTask('default', [
+		'htmlmin',
+		'cssmin',
+		'uglify',
 		'concat',
-		'sass',
+		'imagemin',
 		'responsive_images',
-		'imagemin'
+		'copy'
 	]);
-}
+};
