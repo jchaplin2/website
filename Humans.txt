@@ -1,0 +1,21 @@
+/* TEAM */
+
+    Name: Jonathan Chaplin
+    Contact: jchaplin@gmail.com
+    Twitter: @jchaplin2
+    From: Paramus/NJ, FUSA
+
+
+/* THANKS */
+
+    -
+
+
+/* SITE */
+
+    Last update: -
+    Language: English
+    Doctype: HTML5
+    IDE: Sublime Text
+    SCM: Git
+    Hosting: GitHub
