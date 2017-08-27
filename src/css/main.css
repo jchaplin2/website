@@ -16,6 +16,14 @@
 	color: black;
 }
 
+.article-header {
+	cursor: pointer;
+}
+
+.white-text{
+	color: white;
+}
+
 /*my styles*/
 body {
 	font-family: "Lato", sans-serif;
@@ -88,7 +96,7 @@ input[type="button"] {
 
 .project-description {
 	overflow: hidden;
-	height: 160px;
+	height: 100px;
 	width: 100%;
 	white-space: pre-wrap;
 }
