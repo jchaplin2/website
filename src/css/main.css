@@ -77,13 +77,13 @@ h2 {
 	text-align: center;
 }
 
-.zocial-linkedin, .zocial-github {
-	width: 32%;
+.zocial-linkedin, .zocial-github, .zocial-guest, .zocial-gmail {
+	width: 24%;
 }
 
-.zocial-gmail {
+/*.zocial-gmail {
 	width: 36%;
-}
+}*/
 
 #social-media-list a {
 	color: white;
@@ -134,7 +134,7 @@ input[type="button"] {
 
 }
 
-@media screen and (max-width:663px) {
+@media screen and (max-width:740px) {
 	#social-media-list > li {
 		display: block;
 		width: 100%;
