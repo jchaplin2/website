@@ -1,6 +1,13 @@
-Resources:
+#Installation
+.Clone the repo: git clone https://github.com/jchaplin2/website.git
+.Install node js: https://nodejs.org/en/
+.Install grunt: npm install -g grunt-cli
 
-photos: some are photos that I've taken, rest are from pixabay.com
-social media icons: used zocial font from http://weloveiconfonts.com/
-CSS : http://getbootstrap.com/
-JQuery : https://jquery.com/
+#Demo
+[Demo](https://jchaplin2.github.io)
+
+#Resources:
+.Photos: Some pictures are photos that I've taken, rest are from pixabay.com
+.Social media icons: I used zocial font from http://weloveiconfonts.com/
+.CSS Framework: I used bootstrap. http://getbootstrap.com/
+.JQuery : https://jquery.com/
